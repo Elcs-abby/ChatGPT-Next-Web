@@ -129,9 +129,9 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    DefaultTopic: "这是一个新的世界",
+    BotHello: "我的大脑里有些东西，你不妨找一找、翻一翻",
+    Error: "我耳朵好像出问题了，烦请再说一遍",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
