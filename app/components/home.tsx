@@ -113,7 +113,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            AI assistant.
+            人工智能助手
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
