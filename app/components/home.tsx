@@ -113,7 +113,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>对话GPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            人工智能助手</br>域名即将到期，新域名请访问<a href='gpt.elcs.fun'>gpt.elcs.fun</a>
+            人工智能助手
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
