@@ -130,7 +130,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "这是一个新的世界",
-    BotHello: "我的大脑里有些东西，你不妨找一找、翻一翻</br>域名即将过期，新域名请访问<a href='gpt.elcs.fun'>gpt.elcs.fun</a>",
+    BotHello: "我的大脑里有些东西，你不妨找一找、翻一翻",
     Error: "我耳朵好像出问题了，烦请再说一遍",
     Prompt: {
       History: (content: string) =>
