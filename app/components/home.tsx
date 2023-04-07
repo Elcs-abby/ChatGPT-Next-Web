@@ -129,9 +129,10 @@ export function Home() {
         >
           <ChatList />
         </div>
-
+        <div style="font-size: 11px;">
+          域名即将过期，新域名请访问<a href="https://gpt.elcs.fun" target="_blank">https://gpt.elcs.fun</a>
+        </div>
         <div className={styles["sidebar-tail"]}>
-          域名即将过期，新域名请访问<a href="https://gpt.elcs.fun">https://gpt.elcs.fun</a>
           <div className={styles["sidebar-actions"]}>
             <div className={styles["sidebar-action"] + " " + styles.mobile}>
               <IconButton
