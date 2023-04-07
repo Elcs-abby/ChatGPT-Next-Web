@@ -129,7 +129,7 @@ export function Home() {
         >
           <ChatList />
         </div>
-        <div style="font-size: 11px;">
+        <div className={styles["new-url"]}>
           域名即将过期，新域名请访问<a href="https://gpt.elcs.fun" target="_blank">https://gpt.elcs.fun</a>
         </div>
         <div className={styles["sidebar-tail"]}>
