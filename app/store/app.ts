@@ -123,8 +123,8 @@ export function filterConfig(oldConfig: ModelConfig): Partial<ModelConfig> {
 }
 
 const DEFAULT_CONFIG: ChatConfig = {
-  historyMessageCount: 12,
-  compressMessageLengthThreshold: 2000,
+  historyMessageCount: 4,
+  compressMessageLengthThreshold: 1000,
   sendBotMessages: true as boolean,
   submitKey: SubmitKey.CtrlEnter as SubmitKey,
   avatar: "1f603",
@@ -137,9 +137,9 @@ const DEFAULT_CONFIG: ChatConfig = {
 
   modelConfig: {
     model: "gpt-3.5-turbo",
-    temperature: 2,
+    temperature: 1,
     max_tokens: 2000,
-    presence_penalty: 2,
+    presence_penalty: 0,
   },
 };
 
