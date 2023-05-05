@@ -130,7 +130,7 @@ export function Home() {
           <ChatList />
         </div>
         <div className={styles["new-url"]}>
-          域名即将过期，新域名请访问<a href="https://gpt.elcs.fun" target="_blank">https://gpt.elcs.fun</a>
+          {/*域名即将过期，新域名请访问<a href="https://gpt.elcs.fun" target="_blank">https://gpt.elcs.fun</a>*/}
         </div>
         <div className={styles["sidebar-tail"]}>
           <div className={styles["sidebar-actions"]}>
